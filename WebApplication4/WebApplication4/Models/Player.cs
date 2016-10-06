@@ -11,7 +11,6 @@ namespace FRWP_smaller.Models
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        [ForeignKey("Team")]
         public int TeamID { get; set; }
         public int JerseyNumber { get; set; }
         public bool IsCaptain { get; set; }
